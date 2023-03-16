@@ -2,13 +2,18 @@
     "name": "whitecane-maindevice",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "services/serial.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon ./services/serial.js"
     },
     "author": "Gyudong-Kim",
     "license": "MIT",
     "dependencies": {
+        "say": "^0.16.0",
         "serialport": "^10.5.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.21"
     }
 }
