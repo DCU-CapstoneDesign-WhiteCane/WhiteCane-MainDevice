@@ -1,11 +1,14 @@
 {
-  "name": "whitecane-maindevice",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Gyudong-Kim",
-  "license": "MIT"
+    "name": "whitecane-maindevice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Gyudong-Kim",
+    "license": "MIT",
+    "dependencies": {
+        "serialport": "^10.5.0"
+    }
 }
