@@ -1,6 +1,6 @@
 const { SerialPort, ReadlineParser } = require("serialport");
 const port = new SerialPort({
-    path: "/dev/cu.usbmodem32401",
+    path: "/dev/ttyACM0",
     baudRate: 9600,
     autoOpen: false,
 });
